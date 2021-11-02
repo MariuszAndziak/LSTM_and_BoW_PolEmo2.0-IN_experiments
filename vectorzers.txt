@@ -1,0 +1,2594 @@
+1/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 167.49834942817688
+####################
+model = decision tree score = 0.48
+time:  1.62
+----------
+model = random forest score = 0.55
+time:  6.88
+----------
+model = extra-trees score = 0.45
+time:  6.29
+----------
+model = lightgbm score = 0.69
+time:  8.13
+----------
+model = catboost score = 0.72
+time:  33.27
+----------
+model = xgboost score = 0.72
+time:  45.41
+----------
+2/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 155.29947757720947
+####################
+model = decision tree score = 0.48
+time:  1.42
+----------
+model = random forest score = 0.55
+time:  6.34
+----------
+model = extra-trees score = 0.47
+time:  5.38
+----------
+model = lightgbm score = 0.69
+time:  7.38
+----------
+model = catboost score = 0.72
+time:  29.61
+----------
+model = xgboost score = 0.72
+time:  56.84
+----------
+3/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 160.43988275527954
+####################
+model = decision tree score = 0.48
+time:  1.54
+----------
+model = random forest score = 0.55
+time:  6.85
+----------
+model = extra-trees score = 0.45
+time:  5.94
+----------
+model = lightgbm score = 0.7
+time:  9.74
+----------
+model = catboost score = 0.72
+time:  33.51
+----------
+model = xgboost score = 0.72
+time:  64.27
+----------
+4/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 159.390074968338
+####################
+model = decision tree score = 0.49
+time:  0.61
+----------
+model = random forest score = 0.58
+time:  5.0
+----------
+model = extra-trees score = 0.43
+time:  3.86
+----------
+model = lightgbm score = 0.61
+time:  4.66
+----------
+model = catboost score = 0.62
+time:  6.48
+----------
+model = xgboost score = 0.61
+time:  8.93
+----------
+5/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 149.3212649822235
+####################
+model = decision tree score = 0.53
+time:  0.57
+----------
+model = random forest score = 0.57
+time:  4.64
+----------
+model = extra-trees score = 0.43
+time:  3.5
+----------
+model = lightgbm score = 0.61
+time:  4.38
+----------
+model = catboost score = 0.62
+time:  6.57
+----------
+model = xgboost score = 0.62
+time:  9.15
+----------
+6/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 151.7968955039978
+####################
+model = decision tree score = 0.53
+time:  0.69
+----------
+model = random forest score = 0.59
+time:  5.23
+----------
+model = extra-trees score = 0.44
+time:  3.93
+----------
+model = lightgbm score = 0.61
+time:  6.8
+----------
+model = catboost score = 0.62
+time:  9.05
+----------
+model = xgboost score = 0.62
+time:  14.53
+----------
+7/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 156.3796694278717
+####################
+model = decision tree score = 0.48
+time:  1.46
+----------
+model = random forest score = 0.55
+time:  6.15
+----------
+model = extra-trees score = 0.45
+time:  5.66
+----------
+model = lightgbm score = 0.69
+time:  6.87
+----------
+model = catboost score = 0.72
+time:  31.05
+----------
+model = xgboost score = 0.71
+time:  48.55
+----------
+8/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 157.00638055801392
+####################
+model = decision tree score = 0.48
+time:  1.49
+----------
+model = random forest score = 0.55
+time:  6.28
+----------
+model = extra-trees score = 0.47
+time:  5.95
+----------
+model = lightgbm score = 0.69
+time:  7.6
+----------
+model = catboost score = 0.72
+time:  29.3
+----------
+model = xgboost score = 0.72
+time:  45.54
+----------
+9/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 158.28506994247437
+####################
+model = decision tree score = 0.48
+time:  1.46
+----------
+model = random forest score = 0.56
+time:  6.33
+----------
+model = extra-trees score = 0.45
+time:  5.62
+----------
+model = lightgbm score = 0.7
+time:  7.21
+----------
+model = catboost score = 0.72
+time:  29.27
+----------
+model = xgboost score = 0.72
+time:  45.62
+----------
+10/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 147.01375198364258
+####################
+model = decision tree score = 0.48
+time:  1.58
+----------
+model = random forest score = 0.54
+time:  6.54
+----------
+model = extra-trees score = 0.44
+time:  6.03
+----------
+model = lightgbm score = 0.7
+time:  8.55
+----------
+model = catboost score = 0.72
+time:  30.29
+----------
+model = xgboost score = 0.73
+time:  45.71
+----------
+11/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 149.85908603668213
+####################
+model = decision tree score = 0.48
+time:  1.63
+----------
+model = random forest score = 0.56
+time:  6.69
+----------
+model = extra-trees score = 0.44
+time:  5.87
+----------
+model = lightgbm score = 0.71
+time:  9.23
+----------
+model = catboost score = 0.73
+time:  31.84
+----------
+model = xgboost score = 0.73
+time:  56.44
+----------
+12/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:1.0
+####################
+Vectorization time: 156.11799430847168
+####################
+model = decision tree score = 0.54
+time:  1.87
+----------
+model = random forest score = 0.62
+time:  7.56
+----------
+model = extra-trees score = 0.44
+time:  6.68
+----------
+model = lightgbm score = 0.72
+time:  11.18
+----------
+model = catboost score = 0.74
+time:  31.75
+----------
+model = xgboost score = 0.75
+time:  46.85
+----------
+13/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 160.51572942733765
+####################
+model = decision tree score = 0.51
+time:  0.86
+----------
+model = random forest score = 0.58
+time:  5.67
+----------
+model = extra-trees score = 0.43
+time:  4.39
+----------
+model = lightgbm score = 0.64
+time:  6.89
+----------
+model = catboost score = 0.66
+time:  13.23
+----------
+model = xgboost score = 0.65
+time:  20.07
+----------
+14/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 159.98011755943298
+####################
+model = decision tree score = 0.53
+time:  0.95
+----------
+model = random forest score = 0.6
+time:  6.15
+----------
+model = extra-trees score = 0.45
+time:  4.35
+----------
+model = lightgbm score = 0.66
+time:  8.03
+----------
+model = catboost score = 0.68
+time:  12.5
+----------
+model = xgboost score = 0.67
+time:  18.02
+----------
+15/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 150.389990568161
+####################
+model = decision tree score = 0.57
+time:  1.01
+----------
+model = random forest score = 0.63
+time:  6.06
+----------
+model = extra-trees score = 0.46
+time:  5.37
+----------
+model = lightgbm score = 0.69
+time:  7.64
+----------
+model = catboost score = 0.7
+time:  13.97
+----------
+model = xgboost score = 0.71
+time:  20.13
+----------
+16/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 150.17296767234802
+####################
+model = decision tree score = 0.48
+time:  1.69
+----------
+model = random forest score = 0.54
+time:  6.76
+----------
+model = extra-trees score = 0.44
+time:  6.04
+----------
+model = lightgbm score = 0.7
+time:  9.78
+----------
+model = catboost score = 0.72
+time:  31.62
+----------
+model = xgboost score = 0.72
+time:  45.44
+----------
+17/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 150.45922255516052
+####################
+model = decision tree score = 0.48
+time:  1.74
+----------
+model = random forest score = 0.56
+time:  6.97
+----------
+model = extra-trees score = 0.44
+time:  7.2
+----------
+model = lightgbm score = 0.71
+time:  14.03
+----------
+model = catboost score = 0.73
+time:  38.61
+----------
+model = xgboost score = 0.73
+time:  55.61
+----------
+18/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 165.02158665657043
+####################
+model = decision tree score = 0.54
+time:  1.96
+----------
+model = random forest score = 0.62
+time:  8.01
+----------
+model = extra-trees score = 0.44
+time:  7.64
+----------
+model = lightgbm score = 0.72
+time:  15.25
+----------
+model = catboost score = 0.74
+time:  40.71
+----------
+model = xgboost score = 0.75
+time:  78.69
+----------
+19/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 171.61307191848755
+####################
+model = decision tree score = 0.48
+time:  2.81
+----------
+model = random forest score = 0.55
+time:  8.57
+----------
+model = extra-trees score = 0.45
+time:  9.21
+----------
+model = lightgbm score = 0.7
+time:  13.35
+----------
+model = catboost score = 0.72
+time:  52.04
+----------
+model = xgboost score = 0.72
+time:  73.61
+----------
+20/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 153.91492676734924
+####################
+model = decision tree score = 0.48
+time:  2.35
+----------
+model = random forest score = 0.55
+time:  7.6
+----------
+model = extra-trees score = 0.46
+time:  7.8
+----------
+model = lightgbm score = 0.7
+time:  10.52
+----------
+model = catboost score = 0.72
+time:  46.6
+----------
+model = xgboost score = 0.72
+time:  81.29
+----------
+21/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 155.5303144454956
+####################
+model = decision tree score = 0.48
+time:  2.57
+----------
+model = random forest score = 0.55
+time:  7.97
+----------
+model = extra-trees score = 0.45
+time:  7.9
+----------
+model = lightgbm score = 0.7
+time:  8.76
+----------
+model = catboost score = 0.73
+time:  45.71
+----------
+model = xgboost score = 0.73
+time:  73.89
+----------
+22/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 151.66817545890808
+####################
+model = decision tree score = 0.49
+time:  0.55
+----------
+model = random forest score = 0.58
+time:  4.55
+----------
+model = extra-trees score = 0.43
+time:  3.47
+----------
+model = lightgbm score = 0.61
+time:  4.31
+----------
+model = catboost score = 0.62
+time:  6.41
+----------
+model = xgboost score = 0.61
+time:  9.04
+----------
+23/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 150.46063470840454
+####################
+model = decision tree score = 0.53
+time:  0.6
+----------
+model = random forest score = 0.57
+time:  4.55
+----------
+model = extra-trees score = 0.43
+time:  3.47
+----------
+model = lightgbm score = 0.61
+time:  4.49
+----------
+model = catboost score = 0.62
+time:  6.69
+----------
+model = xgboost score = 0.62
+time:  9.52
+----------
+24/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 153.03526043891907
+####################
+model = decision tree score = 0.53
+time:  0.65
+----------
+model = random forest score = 0.59
+time:  4.82
+----------
+model = extra-trees score = 0.44
+time:  3.61
+----------
+model = lightgbm score = 0.61
+time:  5.1
+----------
+model = catboost score = 0.62
+time:  7.2
+----------
+model = xgboost score = 0.62
+time:  10.3
+----------
+25/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 161.70775961875916
+####################
+model = decision tree score = 0.48
+time:  3.08
+----------
+model = random forest score = 0.56
+time:  9.32
+----------
+model = extra-trees score = 0.46
+time:  9.45
+----------
+model = lightgbm score = 0.7
+time:  9.66
+----------
+model = catboost score = 0.72
+time:  46.41
+----------
+model = xgboost score = 0.72
+time:  77.48
+----------
+26/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 153.7288920879364
+####################
+model = decision tree score = 0.48
+time:  2.62
+----------
+model = random forest score = 0.55
+time:  7.41
+----------
+model = extra-trees score = 0.46
+time:  7.93
+----------
+model = lightgbm score = 0.7
+time:  8.29
+----------
+model = catboost score = 0.72
+time:  45.58
+----------
+model = xgboost score = 0.72
+time:  73.1
+----------
+27/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 151.09973764419556
+####################
+model = decision tree score = 0.48
+time:  2.48
+----------
+model = random forest score = 0.55
+time:  7.43
+----------
+model = extra-trees score = 0.45
+time:  8.31
+----------
+model = lightgbm score = 0.7
+time:  8.92
+----------
+model = catboost score = 0.73
+time:  47.28
+----------
+model = xgboost score = 0.73
+time:  78.09
+----------
+28/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 151.48783445358276
+####################
+model = decision tree score = 0.48
+time:  2.64
+----------
+model = random forest score = 0.55
+time:  8.51
+----------
+model = extra-trees score = 0.45
+time:  9.1
+----------
+model = lightgbm score = 0.71
+time:  13.44
+----------
+model = catboost score = 0.74
+time:  57.95
+----------
+model = xgboost score = 0.73
+time:  89.95
+----------
+29/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 163.45515203475952
+####################
+model = decision tree score = 0.48
+time:  3.11
+----------
+model = random forest score = 0.56
+time:  9.04
+----------
+model = extra-trees score = 0.46
+time:  9.8
+----------
+model = lightgbm score = 0.71
+time:  13.2
+----------
+model = catboost score = 0.74
+time:  58.12
+----------
+model = xgboost score = 0.74
+time:  113.29
+----------
+30/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:1.0
+####################
+Vectorization time: 149.10098838806152
+####################
+model = decision tree score = 0.54
+time:  2.61
+----------
+model = random forest score = 0.62
+time:  19.0
+----------
+model = extra-trees score = 0.46
+time:  10.56
+----------
+model = lightgbm score = 0.73
+time:  14.29
+----------
+model = catboost score = 0.74
+time:  49.94
+----------
+model = xgboost score = 0.75
+time:  95.42
+----------
+31/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 150.90783429145813
+####################
+model = decision tree score = 0.51
+time:  0.76
+----------
+model = random forest score = 0.58
+time:  6.99
+----------
+model = extra-trees score = 0.43
+time:  3.98
+----------
+model = lightgbm score = 0.64
+time:  5.92
+----------
+model = catboost score = 0.66
+time:  11.21
+----------
+model = xgboost score = 0.65
+time:  15.9
+----------
+32/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 153.84894824028015
+####################
+model = decision tree score = 0.53
+time:  0.92
+----------
+model = random forest score = 0.6
+time:  5.62
+----------
+model = extra-trees score = 0.45
+time:  4.48
+----------
+model = lightgbm score = 0.66
+time:  7.89
+----------
+model = catboost score = 0.68
+time:  13.2
+----------
+model = xgboost score = 0.67
+time:  19.1
+----------
+33/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 152.20965337753296
+####################
+model = decision tree score = 0.57
+time:  1.01
+----------
+model = random forest score = 0.63
+time:  5.97
+----------
+model = extra-trees score = 0.46
+time:  4.4
+----------
+model = lightgbm score = 0.69
+time:  7.74
+----------
+model = catboost score = 0.7
+time:  14.06
+----------
+model = xgboost score = 0.71
+time:  20.13
+----------
+34/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 152.8719720840454
+####################
+model = decision tree score = 0.48
+time:  2.68
+----------
+model = random forest score = 0.55
+time:  8.11
+----------
+model = extra-trees score = 0.45
+time:  8.09
+----------
+model = lightgbm score = 0.71
+time:  11.6
+----------
+model = catboost score = 0.73
+time:  50.48
+----------
+model = xgboost score = 0.73
+time:  77.73
+----------
+35/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 150.9220962524414
+####################
+model = decision tree score = 0.48
+time:  2.67
+----------
+model = random forest score = 0.57
+time:  8.13
+----------
+model = extra-trees score = 0.44
+time:  8.33
+----------
+model = lightgbm score = 0.71
+time:  10.99
+----------
+model = catboost score = 0.74
+time:  48.65
+----------
+model = xgboost score = 0.74
+time:  76.34
+----------
+36/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 153.85909223556519
+####################
+model = decision tree score = 0.54
+time:  2.62
+----------
+model = random forest score = 0.62
+time:  8.08
+----------
+model = extra-trees score = 0.46
+time:  8.2
+----------
+model = lightgbm score = 0.73
+time:  11.45
+----------
+model = catboost score = 0.74
+time:  49.03
+----------
+model = xgboost score = 0.75
+time:  75.33
+----------
+37/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 154.04586505889893
+####################
+model = decision tree score = 0.48
+time:  6.63
+----------
+model = random forest score = 0.53
+time:  11.37
+----------
+model = extra-trees score = 0.45
+time:  13.78
+----------
+model = lightgbm score = 0.7
+time:  11.29
+----------
+model = catboost score = 0.74
+time:  87.97
+----------
+model = xgboost score = 0.74
+time:  214.8
+----------
+38/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 157.92006158828735
+####################
+model = decision tree score = 0.48
+time:  5.8
+----------
+model = random forest score = 0.52
+time:  9.94
+----------
+model = extra-trees score = 0.43
+time:  12.29
+----------
+model = lightgbm score = 0.71
+time:  12.43
+----------
+model = catboost score = 0.73
+time:  92.89
+----------
+model = xgboost score = 0.73
+time:  154.25
+----------
+39/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 158.49378848075867
+####################
+model = decision tree score = 0.48
+time:  6.85
+----------
+model = random forest score = 0.53
+time:  11.29
+----------
+model = extra-trees score = 0.44
+time:  14.51
+----------
+model = lightgbm score = 0.71
+time:  13.16
+----------
+model = catboost score = 0.73
+time:  85.41
+----------
+model = xgboost score = 0.73
+time:  153.77
+----------
+40/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 155.48419332504272
+####################
+model = decision tree score = 0.49
+time:  0.56
+----------
+model = random forest score = 0.58
+time:  4.66
+----------
+model = extra-trees score = 0.43
+time:  3.53
+----------
+model = lightgbm score = 0.61
+time:  4.52
+----------
+model = catboost score = 0.62
+time:  7.77
+----------
+model = xgboost score = 0.61
+time:  9.85
+----------
+41/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 192.31816363334656
+####################
+model = decision tree score = 0.53
+time:  1.0
+----------
+model = random forest score = 0.57
+time:  9.46
+----------
+model = extra-trees score = 0.43
+time:  7.18
+----------
+model = lightgbm score = 0.61
+time:  10.59
+----------
+model = catboost score = 0.62
+time:  24.08
+----------
+model = xgboost score = 0.62
+time:  23.51
+----------
+42/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 157.10232305526733
+####################
+model = decision tree score = 0.53
+time:  0.66
+----------
+model = random forest score = 0.59
+time:  4.77
+----------
+model = extra-trees score = 0.44
+time:  3.68
+----------
+model = lightgbm score = 0.61
+time:  5.46
+----------
+model = catboost score = 0.62
+time:  7.32
+----------
+model = xgboost score = 0.62
+time:  9.88
+----------
+43/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 182.22296166419983
+####################
+model = decision tree score = 0.48
+time:  13.25
+----------
+model = random forest score = 0.52
+time:  23.08
+----------
+model = extra-trees score = 0.43
+time:  30.9
+----------
+model = lightgbm score = 0.71
+time:  30.77
+----------
+model = catboost score = 0.73
+time:  217.42
+----------
+model = xgboost score = 0.74
+time:  354.33
+----------
+44/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 191.22986364364624
+####################
+model = decision tree score = 0.48
+time:  6.51
+----------
+model = random forest score = 0.53
+time:  11.18
+----------
+model = extra-trees score = 0.44
+time:  14.14
+----------
+model = lightgbm score = 0.71
+time:  11.73
+----------
+model = catboost score = 0.74
+time:  84.87
+----------
+model = xgboost score = 0.74
+time:  152.12
+----------
+45/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 158.4516351222992
+####################
+model = decision tree score = 0.48
+time:  6.86
+----------
+model = random forest score = 0.53
+time:  12.2
+----------
+model = extra-trees score = 0.45
+time:  14.89
+----------
+model = lightgbm score = 0.7
+time:  13.24
+----------
+model = catboost score = 0.74
+time:  88.55
+----------
+model = xgboost score = 0.74
+time:  151.31
+----------
+46/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 155.23762226104736
+####################
+model = decision tree score = 0.48
+time:  6.97
+----------
+model = random forest score = 0.53
+time:  11.62
+----------
+model = extra-trees score = 0.43
+time:  15.09
+----------
+model = lightgbm score = 0.72
+time:  17.75
+----------
+model = catboost score = 0.74
+time:  91.56
+----------
+model = xgboost score = 0.75
+time:  150.77
+----------
+47/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 151.31845378875732
+####################
+model = decision tree score = 0.48
+time:  6.47
+----------
+model = random forest score = 0.53
+time:  11.22
+----------
+model = extra-trees score = 0.45
+time:  14.44
+----------
+model = lightgbm score = 0.72
+time:  17.34
+----------
+model = catboost score = 0.75
+time:  88.31
+----------
+model = xgboost score = 0.76
+####################
+Vectorization time: 152.65276527404785
+####################
+model = decision tree score = 0.54
+time:  5.96
+----------
+model = random forest score = 0.59
+time:  11.37
+----------
+model = extra-trees score = 0.44
+time:  13.94
+----------
+model = lightgbm score = 0.73
+time:  15.73
+----------
+model = catboost score = 0.75
+time:  89.11
+----------
+model = xgboost score = 0.77
+time:  148.02
+----------
+49/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 150.94112515449524
+####################
+model = decision tree score = 0.51
+time:  0.83
+----------
+model = random forest score = 0.58
+time:  5.31
+----------
+model = extra-trees score = 0.43
+time:  4.0
+----------
+model = lightgbm score = 0.64
+time:  8.12
+----------
+model = catboost score = 0.66
+time:  12.34
+----------
+model = xgboost score = 0.65
+time:  17.39
+----------
+50/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 159.4746232032776
+####################
+model = decision tree score = 0.53
+time:  0.9
+----------
+model = random forest score = 0.6
+time:  5.58
+----------
+model = extra-trees score = 0.45
+time:  4.37
+----------
+model = lightgbm score = 0.66
+time:  7.78
+----------
+model = catboost score = 0.68
+time:  13.83
+----------
+model = xgboost score = 0.67
+time:  18.48
+----------
+51/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 153.94670295715332
+####################
+model = decision tree score = 0.57
+time:  1.01
+----------
+model = random forest score = 0.63
+time:  5.9
+----------
+model = extra-trees score = 0.46
+time:  4.65
+----------
+model = lightgbm score = 0.69
+time:  7.47
+----------
+model = catboost score = 0.7
+time:  13.99
+----------
+model = xgboost score = 0.71
+time:  19.5
+----------
+52/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 154.85264420509338
+####################
+model = decision tree score = 0.48
+time:  7.86
+----------
+model = random forest score = 0.53
+time:  13.37
+----------
+model = extra-trees score = 0.43
+time:  14.35
+----------
+model = lightgbm score = 0.72
+time:  15.9
+----------
+model = catboost score = 0.74
+time:  91.97
+----------
+model = xgboost score = 0.75
+time:  208.28
+----------
+53/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 212.93985271453857
+####################
+model = decision tree score = 0.48
+time:  9.9
+----------
+model = random forest score = 0.54
+time:  16.73
+----------
+model = extra-trees score = 0.44
+time:  22.15
+----------
+model = lightgbm score = 0.72
+time:  39.66
+----------
+model = catboost score = 0.75
+time:  126.28
+----------
+model = xgboost score = 0.76
+time:  166.52
+----------
+54/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=CountVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 171.78563809394836
+####################
+model = decision tree score = 0.54
+time:  9.39
+----------
+model = random forest score = 0.56
+time:  16.78
+----------
+model = extra-trees score = 0.46
+time:  16.45
+----------
+model = lightgbm score = 0.73
+time:  35.85
+----------
+model = catboost score = 0.75
+time:  140.77
+----------
+model = xgboost score = 0.76
+time:  220.84
+----------
+55/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 192.5678563117981
+####################
+model = decision tree score = 0.48
+time:  3.6
+----------
+model = random forest score = 0.55
+time:  8.99
+----------
+model = extra-trees score = 0.47
+time:  7.92
+----------
+model = lightgbm score = 0.69
+time:  30.22
+----------
+model = catboost score = 0.71
+time:  130.39
+----------
+model = xgboost score = 0.71
+time:  102.78
+----------
+56/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 185.97773575782776
+####################
+model = decision tree score = 0.48
+time:  2.63
+----------
+model = random forest score = 0.55
+time:  10.99
+----------
+model = extra-trees score = 0.48
+time:  6.34
+----------
+model = lightgbm score = 0.69
+time:  34.42
+----------
+model = catboost score = 0.72
+time:  129.51
+----------
+model = xgboost score = 0.72
+time:  143.33
+----------
+57/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 205.87580728530884
+####################
+model = decision tree score = 0.48
+time:  3.74
+----------
+model = random forest score = 0.56
+time:  10.36
+----------
+model = extra-trees score = 0.46
+time:  11.62
+----------
+model = lightgbm score = 0.69
+time:  49.38
+----------
+model = catboost score = 0.71
+time:  134.99
+----------
+model = xgboost score = 0.71
+time:  177.46
+----------
+58/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 181.2309443950653
+####################
+model = decision tree score = 0.48
+time:  1.53
+----------
+model = random forest score = 0.55
+time:  6.49
+----------
+model = extra-trees score = 0.48
+time:  4.03
+----------
+model = lightgbm score = 0.6
+time:  7.78
+----------
+model = catboost score = 0.61
+time:  18.27
+----------
+model = xgboost score = 0.61
+time:  13.9
+----------
+59/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 167.83669805526733
+####################
+model = decision tree score = 0.52
+time:  0.93
+----------
+model = random forest score = 0.56
+time:  6.55
+----------
+model = extra-trees score = 0.47
+time:  4.05
+----------
+model = lightgbm score = 0.61
+time:  8.67
+----------
+model = catboost score = 0.62
+time:  19.0
+----------
+model = xgboost score = 0.61
+time:  12.02
+----------
+60/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 155.10988759994507
+####################
+model = decision tree score = 0.53
+time:  0.89
+----------
+model = random forest score = 0.57
+time:  5.98
+----------
+model = extra-trees score = 0.47
+time:  3.64
+----------
+model = lightgbm score = 0.62
+time:  7.28
+----------
+model = catboost score = 0.62
+time:  15.34
+----------
+model = xgboost score = 0.62
+time:  13.24
+----------
+61/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 165.9286448955536
+####################
+model = decision tree score = 0.48
+time:  2.54
+----------
+model = random forest score = 0.55
+time:  8.77
+----------
+model = extra-trees score = 0.46
+time:  7.23
+----------
+model = lightgbm score = 0.69
+time:  15.76
+----------
+model = catboost score = 0.71
+time:  83.73
+----------
+model = xgboost score = 0.71
+time:  70.6
+----------
+62/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 198.36026215553284
+####################
+model = decision tree score = 0.48
+time:  2.43
+----------
+model = random forest score = 0.55
+time:  9.57
+----------
+model = extra-trees score = 0.48
+time:  7.55
+----------
+model = lightgbm score = 0.69
+time:  31.5
+----------
+model = catboost score = 0.72
+time:  131.2
+----------
+model = xgboost score = 0.72
+time:  142.12
+----------
+63/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 204.16364431381226
+####################
+model = decision tree score = 0.48
+time:  2.76
+----------
+model = random forest score = 0.56
+time:  8.47
+----------
+model = extra-trees score = 0.47
+time:  8.9
+----------
+model = lightgbm score = 0.69
+time:  32.4
+----------
+model = catboost score = 0.71
+time:  116.51
+----------
+model = xgboost score = 0.72
+time:  154.2
+----------
+64/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 198.3984730243683
+####################
+model = decision tree score = 0.48
+time:  3.16
+----------
+model = random forest score = 0.55
+time:  12.21
+----------
+model = extra-trees score = 0.46
+time:  7.67
+----------
+model = lightgbm score = 0.7
+time:  45.53
+----------
+model = catboost score = 0.72
+time:  154.61
+----------
+model = xgboost score = 0.72
+time:  57.55
+----------
+65/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 152.69172406196594
+####################
+model = decision tree score = 0.53
+time:  2.92
+----------
+model = random forest score = 0.58
+time:  9.3
+----------
+model = extra-trees score = 0.46
+time:  6.79
+----------
+model = lightgbm score = 0.71
+time:  21.57
+----------
+model = catboost score = 0.72
+time:  70.04
+----------
+model = xgboost score = 0.73
+time:  59.29
+----------
+66/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:1.0
+####################
+Vectorization time: 154.84819054603577
+####################
+model = decision tree score = 0.58
+time:  3.25
+----------
+model = random forest score = 0.62
+time:  9.66
+----------
+model = extra-trees score = 0.47
+time:  6.35
+----------
+model = lightgbm score = 0.72
+time:  31.52
+----------
+model = catboost score = 0.73
+time:  82.4
+----------
+model = xgboost score = 0.74
+time:  84.66
+----------
+67/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 175.51612305641174
+####################
+model = decision tree score = 0.49
+time:  1.62
+----------
+model = random forest score = 0.56
+time:  8.51
+----------
+model = extra-trees score = 0.46
+time:  5.15
+----------
+model = lightgbm score = 0.64
+time:  18.81
+----------
+model = catboost score = 0.66
+time:  38.16
+----------
+model = xgboost score = 0.64
+time:  28.06
+----------
+68/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 174.10083413124084
+####################
+model = decision tree score = 0.53
+time:  2.88
+----------
+model = random forest score = 0.6
+time:  14.1
+----------
+model = extra-trees score = 0.48
+time:  8.4
+----------
+model = lightgbm score = 0.66
+time:  352.81
+----------
+model = catboost score = 0.67
+time:  111.46
+----------
+model = xgboost score = 0.66
+time:  69.09
+----------
+69/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 310.81959342956543
+####################
+model = decision tree score = 0.57
+time:  3.52
+----------
+model = random forest score = 0.63
+time:  18.25
+----------
+model = extra-trees score = 0.52
+time:  9.08
+----------
+model = lightgbm score = 0.69
+time:  386.84
+----------
+model = catboost score = 0.7
+time:  110.65
+----------
+model = xgboost score = 0.7
+time:  76.78
+----------
+70/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 297.4100663661957
+####################
+model = decision tree score = 0.48
+time:  5.09
+----------
+model = random forest score = 0.55
+time:  16.39
+----------
+model = extra-trees score = 0.45
+time:  20.86
+----------
+model = lightgbm score = 0.7
+time:  457.05
+----------
+model = catboost score = 0.71
+time:  210.12
+----------
+model = xgboost score = 0.72
+time:  797.82
+----------
+71/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 165.8633291721344
+####################
+model = decision tree score = 0.53
+time:  3.25
+----------
+model = random forest score = 0.58
+time:  10.38
+----------
+model = extra-trees score = 0.46
+time:  7.01
+----------
+model = lightgbm score = 0.71
+time:  23.72
+----------
+model = catboost score = 0.72
+time:  91.48
+----------
+model = xgboost score = 0.73
+time:  76.59
+----------
+72/108
+max_features = 300 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 171.88407349586487
+####################
+model = decision tree score = 0.58
+time:  3.63
+----------
+model = random forest score = 0.62
+time:  16.85
+----------
+model = extra-trees score = 0.47
+time:  13.19
+----------
+model = lightgbm score = 0.72
+time:  271.7
+----------
+model = catboost score = 0.73
+time:  182.11
+----------
+model = xgboost score = 0.74
+time:  166.26
+----------
+73/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 202.39337491989136
+####################
+model = decision tree score = 0.48
+time:  6.79
+----------
+model = random forest score = 0.55
+time:  16.32
+----------
+model = extra-trees score = 0.46
+time:  16.4
+----------
+model = lightgbm score = 0.7
+time:  318.53
+----------
+model = catboost score = 0.72
+time:  148.64
+----------
+model = xgboost score = 0.72
+time:  694.99
+----------
+74/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 188.32303643226624
+####################
+model = decision tree score = 0.48
+time:  4.85
+----------
+model = random forest score = 0.55
+time:  12.69
+----------
+model = extra-trees score = 0.47
+time:  11.99
+----------
+model = lightgbm score = 0.7
+time:  44.73
+----------
+model = catboost score = 0.72
+time:  150.37
+----------
+model = xgboost score = 0.72
+time:  162.93
+----------
+75/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 187.92902088165283
+####################
+model = decision tree score = 0.49
+time:  4.72
+----------
+model = random forest score = 0.55
+time:  11.84
+----------
+model = extra-trees score = 0.46
+time:  12.22
+----------
+model = lightgbm score = 0.7
+time:  45.73
+----------
+model = catboost score = 0.72
+time:  150.93
+----------
+model = xgboost score = 0.73
+time:  189.91
+----------
+76/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 190.41149401664734
+####################
+model = decision tree score = 0.48
+time:  1.01
+----------
+model = random forest score = 0.55
+time:  7.39
+----------
+model = extra-trees score = 0.48
+time:  4.51
+----------
+model = lightgbm score = 0.6
+time:  19.65
+----------
+model = catboost score = 0.61
+time:  26.29
+----------
+model = xgboost score = 0.61
+time:  34.32
+----------
+77/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 189.22960376739502
+####################
+model = decision tree score = 0.52
+time:  1.02
+----------
+model = random forest score = 0.56
+time:  7.22
+----------
+model = extra-trees score = 0.47
+time:  4.64
+----------
+model = lightgbm score = 0.61
+time:  19.63
+----------
+model = catboost score = 0.62
+time:  27.04
+----------
+model = xgboost score = 0.61
+time:  33.62
+----------
+78/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 187.35727405548096
+####################
+model = decision tree score = 0.53
+time:  1.1
+----------
+model = random forest score = 0.57
+time:  7.56
+----------
+model = extra-trees score = 0.47
+time:  4.56
+----------
+model = lightgbm score = 0.62
+time:  20.76
+----------
+model = catboost score = 0.62
+time:  28.46
+----------
+model = xgboost score = 0.62
+time:  37.73
+----------
+79/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 178.84391379356384
+####################
+model = decision tree score = 0.48
+time:  4.73
+----------
+model = random forest score = 0.55
+time:  10.92
+----------
+model = extra-trees score = 0.46
+time:  9.96
+----------
+model = lightgbm score = 0.69
+time:  19.15
+----------
+model = catboost score = 0.72
+time:  135.83
+----------
+model = xgboost score = 0.72
+time:  188.81
+----------
+80/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 184.4334774017334
+####################
+model = decision tree score = 0.48
+time:  4.6
+----------
+model = random forest score = 0.55
+time:  11.44
+----------
+model = extra-trees score = 0.47
+time:  12.93
+----------
+model = lightgbm score = 0.7
+time:  42.7
+----------
+model = catboost score = 0.72
+time:  150.13
+----------
+model = xgboost score = 0.72
+time:  188.5
+----------
+81/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 182.3237283229828
+####################
+model = decision tree score = 0.48
+time:  4.19
+----------
+model = random forest score = 0.55
+time:  10.43
+----------
+model = extra-trees score = 0.46
+time:  11.84
+----------
+model = lightgbm score = 0.7
+time:  40.3
+----------
+model = catboost score = 0.72
+time:  149.58
+----------
+model = xgboost score = 0.72
+time:  189.33
+----------
+82/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 181.04524159431458
+####################
+model = decision tree score = 0.48
+time:  5.4
+----------
+model = random forest score = 0.55
+time:  12.42
+----------
+model = extra-trees score = 0.45
+time:  13.64
+----------
+model = lightgbm score = 0.71
+time:  27.25
+----------
+model = catboost score = 0.73
+time:  128.71
+----------
+model = xgboost score = 0.73
+time:  109.97
+----------
+83/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 172.87889051437378
+####################
+model = decision tree score = 0.51
+time:  6.53
+----------
+model = random forest score = 0.57
+time:  13.06
+----------
+model = extra-trees score = 0.46
+time:  26.73
+----------
+model = lightgbm score = 0.71
+time:  241.65
+----------
+model = catboost score = 0.73
+time:  279.2
+----------
+model = xgboost score = 0.74
+time:  202.23
+----------
+84/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:1.0
+####################
+Vectorization time: 154.62888383865356
+####################
+model = decision tree score = 0.58
+time:  5.15
+----------
+model = random forest score = 0.63
+time:  10.78
+----------
+model = extra-trees score = 0.48
+time:  8.4
+----------
+model = lightgbm score = 0.73
+time:  25.69
+----------
+model = catboost score = 0.74
+time:  104.93
+----------
+model = xgboost score = 0.75
+time:  93.27
+----------
+85/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 151.84702444076538
+####################
+model = decision tree score = 0.49
+time:  1.37
+----------
+model = random forest score = 0.56
+time:  14.16
+----------
+model = extra-trees score = 0.46
+time:  4.13
+----------
+model = lightgbm score = 0.64
+time:  11.96
+----------
+model = catboost score = 0.66
+time:  26.46
+----------
+model = xgboost score = 0.64
+time:  22.59
+----------
+86/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 149.67484664916992
+####################
+model = decision tree score = 0.53
+time:  1.63
+----------
+model = random forest score = 0.6
+time:  8.07
+----------
+model = extra-trees score = 0.48
+time:  4.25
+----------
+model = lightgbm score = 0.66
+time:  13.54
+----------
+model = catboost score = 0.67
+time:  29.9
+----------
+model = xgboost score = 0.66
+time:  27.01
+----------
+87/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 149.52058339118958
+####################
+model = decision tree score = 0.57
+time:  2.0
+----------
+model = random forest score = 0.63
+time:  9.05
+----------
+model = extra-trees score = 0.52
+time:  4.67
+----------
+model = lightgbm score = 0.69
+time:  18.08
+----------
+model = catboost score = 0.7
+time:  35.83
+----------
+model = xgboost score = 0.7
+time:  31.95
+----------
+88/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 154.74858784675598
+####################
+model = decision tree score = 0.48
+time:  4.14
+----------
+model = random forest score = 0.55
+time:  9.86
+----------
+model = extra-trees score = 0.45
+time:  8.83
+----------
+model = lightgbm score = 0.71
+time:  21.16
+----------
+model = catboost score = 0.72
+time:  100.41
+----------
+model = xgboost score = 0.72
+time:  90.52
+----------
+89/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 150.61552906036377
+####################
+model = decision tree score = 0.51
+time:  4.22
+----------
+model = random forest score = 0.58
+time:  10.08
+----------
+model = extra-trees score = 0.45
+time:  8.41
+----------
+model = lightgbm score = 0.71
+time:  22.64
+----------
+model = catboost score = 0.72
+time:  103.13
+----------
+model = xgboost score = 0.74
+time:  89.62
+----------
+90/108
+max_features = 500 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 148.97562098503113
+####################
+model = decision tree score = 0.58
+time:  4.26
+----------
+model = random forest score = 0.63
+time:  10.42
+----------
+model = extra-trees score = 0.48
+time:  8.25
+----------
+model = lightgbm score = 0.73
+time:  25.59
+----------
+model = catboost score = 0.74
+time:  103.27
+----------
+model = xgboost score = 0.75
+time:  91.7
+----------
+91/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 153.79788446426392
+####################
+model = decision tree score = 0.49
+time:  7.87
+----------
+model = random forest score = 0.53
+time:  12.35
+----------
+model = extra-trees score = 0.45
+time:  14.21
+----------
+model = lightgbm score = 0.7
+time:  19.53
+----------
+model = catboost score = 0.72
+time:  141.15
+----------
+model = xgboost score = 0.73
+time:  160.24
+----------
+92/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 154.72181463241577
+####################
+model = decision tree score = 0.48
+time:  8.18
+----------
+model = random forest score = 0.53
+time:  12.76
+----------
+model = extra-trees score = 0.43
+time:  14.74
+----------
+model = lightgbm score = 0.7
+time:  19.8
+----------
+model = catboost score = 0.72
+time:  142.38
+----------
+model = xgboost score = 0.73
+time:  165.01
+----------
+93/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.01, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 154.3720109462738
+####################
+model = decision tree score = 0.48
+time:  7.91
+----------
+model = random forest score = 0.53
+time:  12.43
+----------
+model = extra-trees score = 0.43
+time:  14.34
+----------
+model = lightgbm score = 0.7
+time:  20.07
+----------
+model = catboost score = 0.73
+time:  142.91
+----------
+model = xgboost score = 0.73
+time:  162.38
+----------
+94/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 154.7251739501953
+####################
+model = decision tree score = 0.48
+time:  0.82
+----------
+model = random forest score = 0.55
+time:  5.7
+----------
+model = extra-trees score = 0.48
+time:  3.56
+----------
+model = lightgbm score = 0.6
+time:  6.46
+----------
+model = catboost score = 0.61
+time:  14.17
+----------
+model = xgboost score = 0.61
+time:  13.24
+----------
+95/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 152.89959383010864
+####################
+model = decision tree score = 0.52
+time:  0.86
+----------
+model = random forest score = 0.56
+time:  5.88
+----------
+model = extra-trees score = 0.47
+time:  3.7
+----------
+model = lightgbm score = 0.61
+time:  6.87
+----------
+model = catboost score = 0.62
+time:  14.66
+----------
+model = xgboost score = 0.61
+time:  12.3
+----------
+96/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:0.1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 154.52091884613037
+####################
+model = decision tree score = 0.53
+time:  0.93
+----------
+model = random forest score = 0.57
+time:  6.23
+----------
+model = extra-trees score = 0.47
+time:  3.71
+----------
+model = lightgbm score = 0.62
+time:  7.88
+----------
+model = catboost score = 0.62
+time:  15.85
+----------
+model = xgboost score = 0.62
+time:  14.14
+----------
+97/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.3
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 160.47012066841125
+####################
+model = decision tree score = 0.48
+time:  7.94
+----------
+model = random forest score = 0.53
+time:  13.08
+----------
+model = extra-trees score = 0.45
+time:  14.17
+----------
+model = lightgbm score = 0.7
+time:  20.54
+----------
+model = catboost score = 0.72
+time:  143.96
+----------
+model = xgboost score = 0.73
+time:  163.82
+----------
+98/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:0.5
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 155.87742042541504
+####################
+model = decision tree score = 0.47
+time:  7.89
+----------
+model = random forest score = 0.54
+time:  12.33
+----------
+model = extra-trees score = 0.43
+time:  14.15
+----------
+model = lightgbm score = 0.7
+time:  19.57
+----------
+model = catboost score = 0.72
+time:  142.85
+----------
+model = xgboost score = 0.73
+time:  160.98
+----------
+99/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 381, dfs=min:1, max:1.0
+/opt/conda/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:383: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['cal', 'chcieć', 'czas', 'kierunek', 'mieć', 'możliwy', 'musić', 'móc', 'rok', 'wiedzieć'] not in stop_words.
+  warnings.warn('Your stop_words may be inconsistent with '
+####################
+Vectorization time: 151.5137951374054
+####################
+model = decision tree score = 0.48
+time:  8.58
+----------
+model = random forest score = 0.53
+time:  12.98
+----------
+model = extra-trees score = 0.46
+time:  15.13
+----------
+model = lightgbm score = 0.7
+time:  19.89
+----------
+model = catboost score = 0.73
+time:  145.43
+----------
+model = xgboost score = 0.73
+time:  198.56
+----------
+100/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.3
+####################
+Vectorization time: 164.6885859966278
+####################
+model = decision tree score = 0.48
+time:  9.56
+----------
+model = random forest score = 0.53
+time:  14.43
+----------
+model = extra-trees score = 0.44
+time:  16.73
+----------
+model = lightgbm score = 0.71
+time:  30.48
+----------
+model = catboost score = 0.73
+time:  197.13
+----------
+model = xgboost score = 0.74
+time:  197.7
+----------
+101/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:0.5
+####################
+Vectorization time: 168.5904667377472
+####################
+model = decision tree score = 0.53
+time:  8.9
+----------
+model = random forest score = 0.54
+time:  14.58
+----------
+model = extra-trees score = 0.46
+time:  15.82
+----------
+model = lightgbm score = 0.71
+time:  36.26
+----------
+model = catboost score = 0.74
+time:  201.41
+----------
+model = xgboost score = 0.74
+time:  191.38
+----------
+102/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.01, max:1.0
+####################
+Vectorization time: 163.75558924674988
+####################
+model = decision tree score = 0.59
+time:  10.02
+----------
+model = random forest score = 0.61
+time:  15.75
+----------
+model = extra-trees score = 0.48
+time:  16.09
+----------
+model = lightgbm score = 0.73
+time:  44.24
+----------
+model = catboost score = 0.74
+time:  215.47
+----------
+model = xgboost score = 0.75
+time:  207.38
+----------
+103/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.3
+####################
+Vectorization time: 165.88639307022095
+####################
+model = decision tree score = 0.49
+time:  1.49
+----------
+model = random forest score = 0.56
+time:  7.8
+----------
+model = extra-trees score = 0.46
+time:  4.56
+----------
+model = lightgbm score = 0.64
+time:  14.28
+----------
+model = catboost score = 0.66
+time:  34.71
+----------
+model = xgboost score = 0.64
+time:  27.86
+----------
+104/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:0.5
+####################
+Vectorization time: 167.8594455718994
+####################
+model = decision tree score = 0.53
+time:  1.82
+----------
+model = random forest score = 0.6
+time:  9.29
+----------
+model = extra-trees score = 0.48
+time:  4.92
+----------
+model = lightgbm score = 0.66
+time:  20.76
+----------
+model = catboost score = 0.67
+time:  45.55
+----------
+model = xgboost score = 0.66
+time:  38.87
+----------
+105/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:0.1, max:1.0
+####################
+Vectorization time: 164.9328830242157
+####################
+model = decision tree score = 0.57
+time:  2.16
+----------
+model = random forest score = 0.63
+time:  10.51
+----------
+model = extra-trees score = 0.52
+time:  4.97
+----------
+model = lightgbm score = 0.69
+time:  19.04
+----------
+model = catboost score = 0.7
+time:  42.45
+----------
+model = xgboost score = 0.7
+time:  36.95
+----------
+106/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.3
+####################
+Vectorization time: 168.53897976875305
+####################
+model = decision tree score = 0.48
+time:  9.68
+----------
+model = random forest score = 0.54
+time:  14.78
+----------
+model = extra-trees score = 0.44
+time:  18.46
+----------
+model = lightgbm score = 0.71
+time:  40.46
+----------
+model = catboost score = 0.72
+time:  206.41
+----------
+model = xgboost score = 0.74
+time:  182.84
+----------
+107/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:0.5
+####################
+Vectorization time: 152.2227656841278
+####################
+model = decision tree score = 0.53
+time:  8.14
+----------
+model = random forest score = 0.55
+time:  13.13
+----------
+model = extra-trees score = 0.45
+time:  14.74
+----------
+model = lightgbm score = 0.72
+time:  29.55
+----------
+model = catboost score = 0.73
+time:  166.11
+----------
+model = xgboost score = 0.74
+time:  225.21
+----------
+108/108
+max_features = 1000 tokenizer=polish_tokenizer_md, vectorizer=TfidfVectorizer, stop_words = 0, dfs=min:1, max:1.0
+####################
+Vectorization time: 182.6332654953003
+####################
+model = decision tree score = 0.58
+time:  10.04
+----------
+model = random forest score = 0.58
+time:  16.92
+----------
+model = extra-trees score = 0.47
+time:  19.45
+----------
+model = lightgbm score = 0.73
+time:  62.47
+----------
+model = catboost score = 0.75
+time:  225.93
+----------
+model = xgboost score = 0.75
+time:  211.21
+----------
+==========
+Start of experiment: 2021-10-24 06:48:43.279073
+End of experiment: 2021-10-24 19:44:56.046525
+Experiment took:
+    0 days
+    12 hours
+    56 minutes
+    12 seconds
