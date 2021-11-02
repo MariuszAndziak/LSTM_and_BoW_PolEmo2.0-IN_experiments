@@ -1,0 +1,1 @@
+Eksperymenty z udziałem sieci LSTM wraz ze stosownym podsumowaniem oraz modeli Bag of Words (CountVectorizer i TfIdfVectorizer) na zbiorze [PolEmo2.0-IN](https://clarin-pl.eu/dspace/handle/11321/710), w ramach zadania z kursu Przetwarzanie języka naturalnego od [DataWorskop](https://dataworkshop.eu/pl/nlp)
