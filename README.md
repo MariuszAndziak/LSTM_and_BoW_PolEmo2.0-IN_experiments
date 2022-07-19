@@ -13,5 +13,5 @@ Zbiór eksperymentów z udziałem sieci LSTM wraz ze stosownym podsumowaniem ora
 <h2>Cel</h2>
 
 * Wykonanie zadania w ramach modułu z kursu
-testing new tool
+* testing new tool
 
