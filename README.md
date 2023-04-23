@@ -4,7 +4,7 @@
 
 <h2>Motywacja</h2>
 
-* Zaznajoniemie się z budową sieci LSTM
+* Zaznajomienie się z budową sieci LSTM
 * Zrozumienie wpływu parametrów sieci LSTM oraz parametrów algorytmów BoW na wartość metryki sukcesu dla zbioru
 * Zrozumienie wpływu preprocesingu na wartość metryki sukcesu dla zbioru
 * Zaznajomienie się z narzędziem mlflow
